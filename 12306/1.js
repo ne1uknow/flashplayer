@@ -5033,7 +5033,7 @@ var ischeckAutoSubmitCode = true;
         $("#query_ticket").removeClass().addClass("btn92s btn-disabled");
         $("#query_ticket_stu").removeClass().addClass("btn92s btn-disabled");
         aX();
-        //setTimeout(function() {
+        setTimeout(function() {
             bM();
             aU();
             $("#query_ticket").removeClass().addClass("btn92s");
@@ -5056,7 +5056,7 @@ var ischeckAutoSubmitCode = true;
                 $("#query_ticket").removeClass().addClass("btn92s")
             }
             Z()
-        //}, 1000)
+        }, 1000)
     }
     changeArriveDate = function(bP, bO) {
         bP = bP.replace(":", "");
